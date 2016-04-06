@@ -1,6 +1,8 @@
-#[cfg(test)]
+#![allow(dead_code)]
 
-#[test]
-fn it_works() {
+#[macro_use]
+extern crate nom;
 
-}
+mod parser;
+
+pub use parser::*;
