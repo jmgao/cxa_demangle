@@ -1,0 +1,9 @@
+[package]
+name = "cxa_demangle"
+version = "0.0.0"
+authors = ["Josh Gao <jmgao@google.com>"]
+description = "Rust implementation of __cxa_demangle"
+license = "Apache-2.0"
+
+[dependencies]
+nom = "~1.2.2"
